@@ -1,7 +1,14 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+const port = 3000;
 
-console.log("Welcome, this is a JavaScript program.");
-// Change the background color when clicking anywhere on the page
-document.body.addEventListener("click", () => {
-    document.body.style.backgroundColor = "#FFD700"; // Change to gold color
+// Serve the HTML file
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
 });
 

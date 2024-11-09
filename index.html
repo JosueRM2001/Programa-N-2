@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Welcome to JavaScript</title>
     <style>
-        /* Style for the page background */
         body {
-            background-color: #87CEEB; /* Light blue */
-            color: #333; /* Dark text color for contrast */
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            font-size: 2em;
+            text-align: center;
+            margin-top: 20%;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome this is a JavaScript program</h1>
+    <h1>Welcome to JavaScript</h1>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
 
-    <script src="format.js"></script>
-        
+    <script>
+        function changeBackgroundColor() {
+            // Generate a random color
+            let color = "#" + Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = color;
+        }
+    </script>
 </body>
 </html>
