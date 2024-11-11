@@ -27,7 +27,9 @@ Open the cmd terminal on your computer (you must have Docker Desktop installed).
 
 - **Step #2**
 
-[Run the following command, which will generate the image:](docker pull erickjrm/programjavascript2:latest)
+[Run the following command, which will generate the image:](#)
+
+[`docker pull erickjrm/programjavascript2:latest`](#)
 
 - **Step #3**
 
