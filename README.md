@@ -30,7 +30,7 @@ Open the cmd terminal on your computer (you must have Docker Desktop installed).
 Run the following command, which will generate the image:
 
 ```bash
-docker pull erickjrm/programjavascript2:latest
+docker pull erickjrm/programjavascript2:latest ```
 
 - **Step #3**
 
