@@ -41,6 +41,12 @@ docker run -d -p 3000:3000 --name javascript erickjrm/programjavascript2:latest
 
 Open the Docker Desktop to see if the image is created correctly and send it to run to view.
 
+- **Step #5**
+  
+Acces the application is running you can accces the applicaction by navigating to the
+
+following url in your web browser: http://localhost:3000
+
 ## Program-N-1 Project
 ## Steps to run the project locally on your computer
 - **Step #1**
