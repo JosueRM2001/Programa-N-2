@@ -52,7 +52,7 @@ Open the Docker Desktop to see if the image is created correctly and send it to 
 
 following url in your web browser: http://localhost:3000
 
-## Program-N-1 Project
+## Program-N-2 Project
 ## Steps to run the project locally on your computer
 - **Step #1**
 
