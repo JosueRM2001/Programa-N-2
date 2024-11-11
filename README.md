@@ -40,6 +40,7 @@ Then run the following command, which generates the container and the port.
 ```bash
 
 docker run -d -p 3000:3000 --name javascript erickjrm/programjavascript2:latest
+```
 
 - **Step #4**
 
@@ -64,6 +65,7 @@ Clone the project repository on your machine with the following link (GitHub Des
 ```bash
 
 https://github.com/JosueRM2001/Programa-N-2.git
+```
 
 - **Step #3**
 
