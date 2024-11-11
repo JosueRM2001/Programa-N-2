@@ -27,15 +27,16 @@ Open the cmd terminal on your computer (you must have Docker Desktop installed).
 
 - **Step #2**
 
-[Run the following command, which will generate the image:](#)
+Run the following command, which will generate the image:
 
-[`docker pull erickjrm/programjavascript2:latest`](#)
+```bash
+docker pull erickjrm/programjavascript2:latest
 
 - **Step #3**
 
 Then run the following command, which generates the container and the port.
 
-bash
+```bash
 
 docker run -d -p 3000:3000 --name javascript erickjrm/programjavascript2:latest
 
@@ -46,8 +47,6 @@ Open the Docker Desktop to see if the image is created correctly and send it to 
 - **Step #5**
   
 **Acces the application**: Is running you can accces the applicaction by navigating to the
-
-bash
 
 following url in your web browser: http://localhost:3000
 
@@ -61,7 +60,7 @@ Install Node.js on your computer (most recent version recommended).
 
 Clone the project repository on your machine with the following link (GitHub Desktop must be installed):
 
-bash
+```bash
 
 https://github.com/JosueRM2001/Programa-N-2.git
 
