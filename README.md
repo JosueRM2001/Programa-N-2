@@ -63,5 +63,6 @@ Install the following extensions in Visual Estudio Code:
 
 - JavaScript(ES6)
 - Docker
+- Live Server
 
 **With this you can now run the project locally without problems**.
