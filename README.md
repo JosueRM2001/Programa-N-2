@@ -43,7 +43,7 @@ Open the Docker Desktop to see if the image is created correctly and send it to 
 
 - **Step #5**
   
-Acces the application is running you can accces the applicaction by navigating to the
+**Acces the application**: Is running you can accces the applicaction by navigating to the
 
 following url in your web browser: http://localhost:3000
 
